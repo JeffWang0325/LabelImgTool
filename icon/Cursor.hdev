@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.1" halcon_version="13.0">
+<procedure name="main">
+<interface/>
+<body>
+<l>read_image (Cursor1, 'C:/Users/user/Documents/Visual Studio 2015/Projects/Painter/icon/Cursor1.jpg')</l>
+<c></c>
+<l>rgb1_to_gray (Cursor1, GrayImage)</l>
+<l>threshold (GrayImage, Regions, 0, 40)</l>
+<l>opening_circle (Regions, RegionOpening, 9)</l>
+<l>zoom_region (RegionOpening, RegionZoom, 0.1, 0.1)</l>
+<l>connection (RegionZoom, ConnectedRegions)</l>
+<l>select_shape (ConnectedRegions, rect, 'area', 'and', 75, 3000)</l>
+<l>shape_trans (rect, Rect, 'rectangle1')</l>
+<l>difference (ConnectedRegions, rect, circle)</l>
+<l>shape_trans (circle, Circle, 'outer_circle')</l>
+<l>union2 (Circle, Rect, Cursor)</l>
+<c></c>
+<l>region_to_bin (Cursor, BinImage, 0, 255, 53, 55)</l>
+<l>write_image (BinImage, 'jpeg', 0,'C:/Users/user/Documents/Visual Studio 2015/Projects/Painter/icon/Cursor2.jpg')</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>
