@@ -1,0 +1,21 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\bin\x64\Debug\Painter2.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\bin\x64\Debug\Painter2.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\bin\x64\Debug\Painter2.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\obj\x64\Debug\Painter2.Form1.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\obj\x64\Debug\Painter2.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\obj\x64\Debug\Painter2.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\obj\x64\Debug\Painter2.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\obj\x64\Debug\Painter2.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter2\Painter2\obj\x64\Debug\Painter2.csprojResolveAssemblyReference.cache
+F:\20200411\Painter2\Painter2\bin\x64\Debug\Painter2.exe.config
+F:\20200411\Painter2\Painter2\obj\x64\Debug\Painter2.exe
+F:\20200411\Painter2\Painter2\obj\x64\Debug\Painter2.pdb
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\bin\x64\Debug\Painter2.exe.config
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\obj\x64\Debug\Painter2.exe
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\obj\x64\Debug\Painter2.pdb
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\bin\x64\Debug\Painter2.exe
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\bin\x64\Debug\Painter2.pdb
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\obj\x64\Debug\Painter2.csprojResolveAssemblyReference.cache
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\obj\x64\Debug\Painter2.Form1.resources
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\obj\x64\Debug\Painter2.Properties.Resources.resources
+D:\Visual Studio\陳鍾誠 C#教學\Windows Form\Painter2\Painter2\obj\x64\Debug\Painter2.csproj.GenerateResource.Cache
