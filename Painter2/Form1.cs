@@ -1256,7 +1256,14 @@ namespace Painter2
             }
             */
             this.LabelImage.ChangeColor(drawType, OrigColor, this.button_Color_changed.BackColor, this.checkBox_ChangeColor_All.Checked);
-            this.List_Batch_ChangeColor[this.index_Image].B_Color_Changed = true;
+            try // (20210816) Jeff Revised!
+            {
+                this.List_Batch_ChangeColor[this.index_Image].B_Color_Changed = true;
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLine(ex.ToString());
+            }
 
             pictureBox_ImageShowForm.Invalidate();
             this.Update_cbx_LabelledColor();
