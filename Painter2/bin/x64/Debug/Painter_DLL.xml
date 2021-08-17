@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Painter_DLL</name>
+    </assembly>
+    <members>
+        <member name="T:Painter_DLL.DrawType">
+            <summary>
+            標註工具類型
+            </summary>
+        </member>
+        <member name="T:Painter_DLL.enu_ImageFormat">
+            <summary>
+            影像格式 (System.Drawing.Imaging.ImageFormat)
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_DrawTypeInfo.drawType">
+            <summary>
+            標註工具類型
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_DrawTypeInfo.color">
+            <summary>
+            標註顏色
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Painter_DLL.cls_LabelImage.cls_DrawTypeInfo.halconColor" -->
+        <member name="P:Painter_DLL.cls_LabelImage.cls_DrawTypeInfo.Param">
+            <summary>
+            該標註工具物件
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.cls_DrawTypeInfo.cls_DrawTypeInfo_Constructor(Painter_DLL.DrawType,System.Drawing.Color,System.Single)">
+            <summary>
+            代替 建構子，初始化 之功能 
+            Note: 建構式有參數輸入時，會無法儲存到XML!
+            </summary>
+            <param name="drawType_"></param>
+            <param name="color_"></param>
+            <param name="w"></param>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.cls_DrawTypeInfo.ConvertParam">
+            <summary>
+            取得該標註工具物件
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.cls_DrawTypeInfo.SetParam(System.Drawing.Point,System.Object)">
+            <summary>
+            設定 Param
+            </summary>
+            <param name="pt">起始點</param>
+            <param name="params_">各標註工具類型對應參數</param>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_rectangle.W_Pen">
+            <summary>
+            畫筆寬度
+            </summary>
+        </member>
+        <member name="F:Painter_DLL.cls_LabelImage.cls_rectangle.Pt_UpperLeft">
+            <summary>
+            矩形左上角座標
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_rectangle.W">
+            <summary>
+            矩形寬
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_rectangle.H">
+            <summary>
+            矩形高
+            </summary>
+        </member>
+        <member name="F:Painter_DLL.cls_LabelImage.cls_rectangle_fill.Pt_UpperLeft">
+            <summary>
+            矩形左上角座標
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_rectangle_fill.W">
+            <summary>
+            矩形寬
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_rectangle_fill.H">
+            <summary>
+            矩形高
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_circle.W_Pen">
+            <summary>
+            畫筆寬度
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_circle.R">
+            <summary>
+            半徑
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_circle_fill.R">
+            <summary>
+            半徑
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_ellipse.W_Pen">
+            <summary>
+            畫筆寬度
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_ellipse.W">
+            <summary>
+            橢圓寬度一半
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_ellipse.H">
+            <summary>
+            橢圓高度一半
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_ellipse_fill.W">
+            <summary>
+            橢圓寬度一半
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_ellipse_fill.H">
+            <summary>
+            橢圓高度一半
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_selectRect.W_Pen">
+            <summary>
+            畫筆寬度
+            </summary>
+        </member>
+        <member name="F:Painter_DLL.cls_LabelImage.cls_selectRect.Pt_UpperLeft">
+            <summary>
+            矩形左上角座標
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_selectRect.W">
+            <summary>
+            矩形寬
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.cls_selectRect.H">
+            <summary>
+            矩形高
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.ImageName">
+            <summary>
+            影像名稱
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.ImageFormat_Orig">
+            <summary>
+            原始影像格式
+            </summary>
+        </member>
+        <member name="F:Painter_DLL.cls_LabelImage.points">
+            <summary>
+            紀錄滑鼠軌跡的陣列
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.drawTypeInfo">
+            <summary>
+            紀錄不同滑鼠軌跡段落之 標註工具類型、顏色及大小
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.Labelled_HalconColor">
+            <summary>
+            已標注顏色
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.cls_LabelImage.b_saved">
+            <summary>
+            是否已儲存
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.cls_LabelImage_Constructor(System.String,Painter_DLL.enu_ImageFormat)">
+            <summary>
+            代替 建構子，初始化 之功能 
+            Note: 建構式有參數輸入時，會無法儲存到XML!
+            </summary>
+            <param name="imageName_"></param>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Redraw_Label(System.Drawing.Graphics,System.Drawing.Bitmap,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Int32)">
+            <summary>
+            繪製標註
+            </summary>
+            <param name="g_"></param>
+            <param name="BackImg"></param>
+            <param name="zoomRatio"></param>
+            <param name="b_BackImg_hasBeenZoomed">BackImg 是否已做 resize</param>
+            <param name="b_MouseDown">滑鼠是否被按下</param>
+            <param name="b_Alpha">是否調整顯示透明度</param>
+            <param name="Alpha">透明度數值</param>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.ChangeColor(Painter_DLL.DrawType,System.Drawing.Color,System.Drawing.Color,System.Boolean)">
+            <summary>
+            【標註顏色切換】
+            </summary>
+            <param name="drawType"></param>
+            <param name="OrigColor"></param>
+            <param name="NewColor"></param>
+            <param name="b_AllColors"></param>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Clear(Painter_DLL.DrawType,System.Drawing.Color,System.Boolean)">
+            <summary>
+            【移除】
+            </summary>
+            <param name="drawType"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.ClearAll">
+            <summary>
+            【清空】
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Recovery">
+            <summary>
+            【復原】
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Add_1_BreakPoint">
+            <summary>
+            加入一個斷點 (BreakPoint)
+            Note: 每完成一個步驟MouseUp時，都會在結尾處新增一個斷點
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Save_1_Recipe(System.String)">
+            <summary>
+            儲存單張標註工單
+            </summary>
+            <param name="directory_"></param>
+            <param name="Recipe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Convert_ImageFormat(Painter_DLL.enu_ImageFormat)">
+            <summary>
+            enu_ImageFormat類型 轉換成 System.Drawing.Imaging.ImageFormat類型
+            </summary>
+            <param name="imageFormat">enu_ImageFormat類型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Save_1_DrawImage(System.Drawing.Bitmap,System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            儲存單張標註影像
+            </summary>
+            <param name="image"></param>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Save_1_DrawImage2(System.Drawing.Bitmap,System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            儲存單張標註影像2
+            Note: 背景1，標註0
+            </summary>
+            <param name="image"></param>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Save_1_DrawImage3(System.Drawing.Bitmap,System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            儲存單張標註影像3
+            Note: 背景0，標註為該分類顏色
+            </summary>
+            <param name="image"></param>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.UnSaved_ProceedAnyway">
+            <summary>
+            未存檔時，提示使用者是否繼續執行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.cls_LabelImage.Update_Labelled_HalconColor">
+            <summary>
+            更新 Labelled_HalconColor
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.clsStaticTool.SaveXML(System.Object,System.String)">
+            <summary>
+            儲存 XML
+            </summary>
+            <param name="SrcProduct"></param>
+            <param name="PathFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.clsStaticTool.LoadXML``1(System.String,``0@)">
+            <summary>
+            載入 XML
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="PathFile"></param>
+            <param name="Recipe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.clsStaticTool.DeepClone``1(``0)">
+            <summary>
+            物件複製 (深層)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.clsStaticTool.GetHalconColor(System.Drawing.Color)">
+            <summary>
+            Color 轉 Halcon Color
+            </summary>
+            <param name="ConvertColor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.clsStaticTool.GetSystemColor(System.String)">
+            <summary>
+            Halcon Color 轉 Color
+            </summary>
+            <param name="str_Color_Halcon"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.clsStaticTool.GetSystemColor_withName(System.String)">
+            <summary>
+            Halcon Color 轉 Color (如為已知的系統色彩，則會設定其Name)
+            </summary>
+            <param name="str_Color_Halcon"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Painter_DLL.clsStaticTool.Control_DispImg_Transparent(System.Windows.Forms.Control,System.Boolean)">
+            <summary>
+            控制項顯示影像之背景顏色設定為透明
+            </summary>
+            <param name="ctrl"></param>
+            <param name="B_BackgroundImage"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Painter_DLL.clsProgressbar.m_nStep">
+            <summary>
+            目前進度列的位置: 0~100 (20190604) Jeff Revised!
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.clsProgressbar.isProcessRunning">
+            <summary>
+            是否正在執行進度條動作
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.clsProgressbar.m_strShow">
+            <summary>
+            顯示文字
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.clsProgressbar.b_Update_strShow">
+            <summary>
+            是否更新顯示文字
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.clsProgressbar.strShow_loc">
+            <summary>
+            顯示文字位置
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.clsProgressbar.strShow_size">
+            <summary>
+            顯示文字 Label尺寸
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.clsProgressbar.b_Update_strShow_loc">
+            <summary>
+            是否更新顯示文字位置
+            </summary>
+        </member>
+        <member name="P:Painter_DLL.clsProgressbar.m_strCaption">
+            <summary>
+            標題文字
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.clsProgressbar.ShowRunProgress">
+            <summary>
+            顯示完成進度百分比(%)
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.clsProgressbar.ShowRunProgress_thenWait">
+            <summary>
+            先執行RunProgress，在執行WaitProgress
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.clsProgressbar.SetShowText(System.String)">
+            <summary>
+            設定/更新 顯示文字
+            </summary>
+            <param name="strText"></param>
+        </member>
+        <member name="M:Painter_DLL.clsProgressbar.SetShowText_location(System.Drawing.Point,System.Object)">
+            <summary>
+            設定顯示文字位置
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.clsProgressbar.SetShowCaption(System.String)">
+            <summary>
+            設定標題文字
+            </summary>
+            <param name="strText"></param>
+        </member>
+        <member name="M:Painter_DLL.clsProgressbar.SetStep(System.Int32)">
+            <summary>
+            更新目前進度條的位置 (20190604) Jeff Revised!
+            </summary>
+            <param name="nStep"></param>
+        </member>
+        <member name="M:Painter_DLL.clsProgressbar.CloseProgress">
+            <summary>
+            結束進度條
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.clsProgressbar.trans2WaitProgress">
+            <summary>
+            執行ShowRunProgress_thenWait()中，轉換到WaitProgress
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Painter_DLL.ProgressDialog.UpdateProgress(System.Int32)" -->
+        <member name="M:Painter_DLL.ProgressDialog.SetShowText_location(System.Drawing.Point,System.Object)">
+            <summary>
+            設定顯示文字位置
+            </summary>
+        </member>
+        <member name="F:Painter_DLL.ProgressDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Painter_DLL.ProgressDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Painter_DLL.ProgressDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

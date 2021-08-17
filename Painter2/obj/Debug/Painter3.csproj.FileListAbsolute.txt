@@ -1,0 +1,9 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\bin\Debug\Painter2.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\bin\Debug\Painter2.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\bin\Debug\Painter2.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\obj\Debug\Painter3.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\obj\Debug\Painter3.Form1.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\obj\Debug\Painter2.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\obj\Debug\Painter3.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\obj\Debug\Painter2.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\Painter3\Painter2\obj\Debug\Painter2.pdb

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<cls_SaveSetting>
+  <B_External_Open>false</B_External_Open>
+  <Extra_dirX>D:\X</Extra_dirX>
+  <Extra_dirY>D:\Y</Extra_dirY>
+  <Folder_Save>C:\Users\user\Documents\Visual Studio 2015\Projects\Painter6_UsingPainterDLL_GitHub\Painter2\bin\x64\Debug</Folder_Save>
+  <B_save_label>true</B_save_label>
+  <FileName_label>label</FileName_label>
+  <B_save_OrigImage>true</B_save_OrigImage>
+  <FileName_OrigImage>Original Image</FileName_OrigImage>
+  <B_save_label_Image1>true</B_save_label_Image1>
+  <FileName_label_Image1>label_Image1</FileName_label_Image1>
+  <B_save_label_Image2>true</B_save_label_Image2>
+  <FileName_label_Image2>label_Image2</FileName_label_Image2>
+  <B_save_label_Image3>true</B_save_label_Image3>
+  <FileName_label_Image3>label_Image3</FileName_label_Image3>
+  <B_Load_AllImageFormat>true</B_Load_AllImageFormat>
+  <ImageFormat_Load>bmp</ImageFormat_Load>
+  <B_Save_SameImageFormat>true</B_Save_SameImageFormat>
+  <ImageFormat_Save>bmp</ImageFormat_Save>
+  <B_ColorList>true</B_ColorList>
+  <halconColorArray>
+    <string>#FF8000FF</string>
+    <string>#FFFF80FF</string>
+    <string>#80FF80FF</string>
+    <string>#80FFFFFF</string>
+    <string>#0080FFFF</string>
+    <string>#FF80C0FF</string>
+    <string>#FF80FFFF</string>
+    <string>#FF0000FF</string>
+    <string>#80FF00FF</string>
+    <string>#0080C0FF</string>
+    <string>#FF00FFFF</string>
+    <string>#804040FF</string>
+    <string>#FF8040FF</string>
+    <string>#00FF00FF</string>
+    <string>#8080FFFF</string>
+    <string>#800040FF</string>
+    <string>#FF0080FF</string>
+    <string>#800000FF</string>
+    <string>#0000A0FF</string>
+    <string>#000000FF</string>
+  </halconColorArray>
+  <Index_Module>0</Index_Module>
+  <Folder_LoadBatch2>D:\Delta_AOI\同欣電子AI\評估報告(20200411)\AI_Image\Y1</Folder_LoadBatch2>
+</cls_SaveSetting>
