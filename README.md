@@ -12,10 +12,10 @@ It is written in C# and uses Windows Forms for its graphical user interface (GUI
 # GUI Demo:
 
 Please click the following figures or links to watch GUI demo videos:  
-[AI標註影像工具 (LabelImgTool)-English Version](https://youtu.be/mpQwIr4hJY4)  
+[AI標註影像工具 (LabelImgTool using C#)-English Version](https://youtu.be/mpQwIr4hJY4)  
 [![Everything Is AWESOME](http://img.youtube.com/vi/mpQwIr4hJY4/sddefault.jpg)](https://youtu.be/mpQwIr4hJY4)  
 
-[AI標註影像工具 (LabelImgTool)-中文版](https://youtu.be/I1Y9xXxpHi8)  
+[AI標註影像工具 (LabelImgTool using C#)-中文版](https://youtu.be/I1Y9xXxpHi8)  
 [![Everything Is AWESOME](http://img.youtube.com/vi/I1Y9xXxpHi8/sddefault.jpg)](https://youtu.be/I1Y9xXxpHi8)  
 
 ## ※Outline:   
