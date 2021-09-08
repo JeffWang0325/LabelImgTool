@@ -1,5 +1,5 @@
 # Description
-LabelImgTool is a graphical image annotation tool which can label many kinds of object type (ex: Pen, Eraser, Hollow Rectangle, Filled Rectangle, Hollow Circle, Filled Circle, Hollow Ellipse, Filled Ellipse, Rectangle ROI, Irregular Shape ROI) in images.
+LabelImgTool is a graphical image annotation tool which can label many kinds of object type (ex: Pen, Eraser, Hollow Rectangle, Filled Rectangle, Hollow Circle, Filled Circle, Hollow Ellipse, Filled Ellipse, Rectangle ROI, Irregular Shape ROI) in images. It can be applied to many deep learning fields, including object detection, semantic segmentation, UNet, etc.
 
 It is written in C# and uses Windows Forms for its graphical user interface (GUI).
 
